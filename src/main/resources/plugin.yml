@@ -1,0 +1,9 @@
+name: Omni-Console
+version: '${project.version}'
+main: com.github.anthropoworphous.omniconsole.OmniConsole
+api-version: 1.18
+prefix: Console
+load: STARTUP
+authors: [ Anthropoworphous ]
+description: Idk this is just an attempt to make a better console
+website: https://github.com/anthropoworphous
