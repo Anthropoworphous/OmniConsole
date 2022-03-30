@@ -1,8 +1,9 @@
-package com.github.anthropoworphous.omniconsole;
+package com.github.anthropoworphous.omniconsole.cmd;
 
 import com.github.anthropoworphous.cmdlib.arg.analyst.ArgsAnalyst;
 import com.github.anthropoworphous.cmdlib.arg.route.IRoute;
 import com.github.anthropoworphous.cmdlib.cmd.implementation.CMD;
+import com.github.anthropoworphous.omniconsole.OmniConsole;
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
