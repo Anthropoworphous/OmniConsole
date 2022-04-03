@@ -12,7 +12,7 @@ import java.util.Set;
 @SuppressWarnings("unused")
 @WebSocket
 public class SocketHandler {
-    private static Set<RemoteEndpoint> clientList = new HashSet<>();
+    private static final Set<RemoteEndpoint> clientList = new HashSet<>();
     
     public static void sendMsg(String msg) {
         clientList.forEach(client -> {
@@ -21,12 +21,6 @@ public class SocketHandler {
             } catch (IOException e) { e.printStackTrace(); }
         });
     }
-
-
-
-
-
-
 
 
 
